@@ -6,11 +6,6 @@
     width: 100%;
 }
 
-#navbarSupportedContent{
-    position: absolute;
-    right: 10rem;
-}
-
 .nav-link:hover{
     color: #f4bb49 !important;
 }
