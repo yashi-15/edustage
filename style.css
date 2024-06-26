@@ -62,6 +62,13 @@
     gap: 1rem;
 }
 
+.clients-card:hover, .trainers-card:hover, .courses-card:hover{
+scale: 0.98;
+}
+.timer-cards:hover, .foot-icon:hover, .btn:hover{
+    scale: 0.95;
+}
+
 .features-card{
     max-width: 22rem;
 }
