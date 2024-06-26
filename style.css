@@ -1,0 +1,90 @@
+.btns {
+    background-image: url(LOIM-6415-01_Blog_0820_GenZ_Header-removebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+}
+
+#navbarSupportedContent{
+    position: absolute;
+    right: 10rem;
+}
+
+.nav-link:hover{
+    color: #f4bb49 !important;
+}
+
+.courses-btn {
+    background-color: rgb(6, 6, 55) !important;
+    border-radius: 0px !important;
+}
+
+#register-btn {
+    color: rgb(6, 6, 55);
+}
+
+.text-blue {
+    color: rgb(6, 6, 55) !important;
+}
+
+.bg-blue {
+    background-color: rgb(6, 6, 55) !important;
+}
+
+.timer-cards, .email-footer, .foot-icon {
+    background-color: rgba(255, 255, 255, 0.347) !important;
+}
+
+.input-border {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    padding: 0.5rem;
+}
+
+#register-form {
+    max-width: 20rem;
+}
+
+.courses-card{
+    max-width: 20rem;
+    border: none !important;
+    gap: 1rem;
+}
+
+.trainers-card{
+    max-width: 20rem;
+    margin: 1rem;
+}
+
+.clients-card{
+    display: flex;
+    gap: 1rem;
+}
+
+.features-card{
+    max-width: 22rem;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .register-now {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .clients-card {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}
+@media screen and (max-width: 840px) {
+    .testimonials-container {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 350px) {
+    .timer-cards{
+        display: none !important;
+    }
+}
